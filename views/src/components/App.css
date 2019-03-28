@@ -1,0 +1,8 @@
+.table i {
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.table i:hover{
+    color: var(--primary);
+}
