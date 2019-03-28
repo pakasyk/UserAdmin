@@ -3,8 +3,7 @@
 # dependencies
 /node_modules
 /views/node_modules
-/views/.pnp
-.pnp.js
+
 
 # testing
 /views/coverage
