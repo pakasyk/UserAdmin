@@ -1,0 +1,21 @@
+{
+  "name": "user-admin-site",
+  "version": "1.0.0",
+  "description": "User Administrative Site",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "views": "npm start --prefix views",
+    "dev": "concurrently \"npm run server\" \"npm run views\""
+  },
+  "author": "Mindaugas Krizonis",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10"
+  }
+}
